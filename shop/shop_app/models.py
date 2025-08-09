@@ -5,7 +5,7 @@ class Store(models.Model):
     category = models.CharField(max_length=100) 
     sub_category = models.CharField(max_length=100)
     region = models.CharField(max_length=100)
-    segment = models.CharField(max_length=100)
+    segment = models.CharField(max_length=100) 
     ship_mode = models.CharField(max_length=100)
     discount = models.FloatField()
     quantity = models.FloatField()
