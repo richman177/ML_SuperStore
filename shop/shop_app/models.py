@@ -7,7 +7,7 @@ class Store(models.Model):
     region = models.CharField(max_length=100)
     segment = models.CharField(max_length=100) 
     ship_mode = models.CharField(max_length=100)
-    discount = models.FloatField()
+    discount = models.FloatField() 
     quantity = models.FloatField()
     month = models.IntegerField()
     dayofweek = models.IntegerField()
