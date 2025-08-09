@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Store(models.Model): 
-    category = models.CharField(max_length=100)
+    category = models.CharField(max_length=100) 
     sub_category = models.CharField(max_length=100)
     region = models.CharField(max_length=100)
     segment = models.CharField(max_length=100)
