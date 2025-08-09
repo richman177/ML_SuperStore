@@ -10,7 +10,7 @@ class Store(models.Model):
     discount = models.FloatField() 
     quantity = models.FloatField()
     month = models.IntegerField()
-    dayofweek = models.IntegerField()
+    dayofweek = models.IntegerField() 
     predicted_sales = models.FloatField(null=True, blank=True)
 
     def __str__(self):
